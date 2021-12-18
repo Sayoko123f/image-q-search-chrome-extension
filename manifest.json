@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Image QSearch",
+  "description": "Add shortcut buttons in context menu",
+  "version": "1.0",
+  "icons": {
+    "16": "i16.png",
+    "128": "i128.png"
+  },
+  "background": {
+    "service_worker": "event.js"
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs"
+  ]
+}
